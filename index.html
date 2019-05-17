@@ -5,9 +5,9 @@
         <h1> BAKING TRAINING</h1>
         <p> Signup To Become A Pro In Baking </p>
     </head>
-    <body>
+    <body> 
             <div>
-        <form action="action_page.php" method="GET">
+        <form action="signin.html">
 
             <br>First name: <br>
             <input type="text"required placeholder="enter your firstname" name="Firstname" value=""><br>
@@ -20,34 +20,22 @@
 
             <br>Email: <br>  
             <input type="email"required placeholder="email adress" name="email"><br>
+            
+            Favourite fruits: <select name="fruits">
+                <option value="value" placeholder="Favourite fruits"> Favourite fruits</option>
+              <option value="pineapple">pineapple</option>
+              <option value="orange">orange</option>
+              <option value="Banana">Banana</option>
+              <option value="Plum">Plum</option>
+              <option value="Mango">Mango</option>
+             </select><br>
+             <br><input type="radio"  name="agree" value="male" checked="checked">male<br>
+             <br> <input type="radio" name="agree" value="female" checked="checked">female<br>
+             <br><input type="checkbox" name="agree" value="terms and condition" checked="checked">terms and condition<br>
+             <br><button> submit</button>
+             <button formaction="signin.html">signin</button>
         </form>
-
-        </div>
-
-        <div>
-               <br> <form action="action_page.php" method="GET">
-
-                Favourite fruits: <select name="fruits">
-                    <option value="value" placeholder="Favourite fruits"> Favourite fruits</option>
-                  <option value="pineapple">pineapple</option>
-                  <option value="orange">orange</option>
-                  <option value="Banana">Banana</option>
-                  <option value="Plum">Plum</option>
-                  <option value="Mango">Mango</option>
-                 </select><br>
-                 </div>
-
-            <br><input type="radio"  name="agree" value="male" checked="checked">male<br>
-            <br> <input type="radio" name="agree" value="female" checked="checked">female<br>
-            <br><input type="checkbox" name="agree" value="terms and condition" checked="checked">terms and condition<br>
-             
-            <br><button> submit</button><br>
-             </fieldset>
-             <button> signup</button>
-             <button> <a href="signin.html">signin </a></button>
-             </div>
-
-        </form>
+       </div>
         <footer>
             <p> powered by: Jecakes</p>
             <p> contact information: <a href="mailto:egboc6973@gmail.com">egboc6973@gmail.com</a>.</p>
