@@ -37,7 +37,7 @@ function validateSignIn() {
         alert("Invalid email format");
         return false;
     } else if( password.value === "" && password.value.length < 6) {
-        alert("Weak password");
+        alert("Weaking password");
         return false;
     } else {
         return true;
