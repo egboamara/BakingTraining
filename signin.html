@@ -2,15 +2,16 @@
 <html>
     <head>
         <link href="style.css" type="text/css" rel="stylesheet">
+        <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
       <h1> SIGN IN</h1>
 
       <form>
-         <br> Email:  <input type="email" name="email" value=""><br>
-          <br>Password: <input type="password" name="password" value=""><br>
+         <br> Email:  <input type id="email1" name="email" value=""><br>
+          <br>Password: <input type id="password1" name="password" value=""><br>
 
-          <br><button> Login</button><br>
+          <br><button id="btn2" onclick="validateSignIn()"> Login</button>
           <button formaction="index.html">signup</button>
       </form>
     </body>

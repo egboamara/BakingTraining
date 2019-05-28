@@ -28,3 +28,18 @@ function validateSignUp() {
     }
 }
 
+
+function validateSignIn() {
+    var email = document.getElementById('email1');
+    var password = document.getElementById('password1');
+
+    if( email.value === "" && !email.value.includes("@")) {
+        alert("Invalid email format");
+        return false;
+    } else if( password.value === "" && password.value.length < 6) {
+        alert("Weak password");
+        return false;
+    } else {
+        return true;
+    }
+}
