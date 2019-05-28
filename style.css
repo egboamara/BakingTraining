@@ -1,5 +1,6 @@
 h1{
-    font-family: serif;
+    font-family: sans-serif;
+    font-style: normal;
 }
 p{
     font-family: Georgia;
@@ -8,31 +9,75 @@ p{
     background-color: none;
   }
   body{
-      background-image: url("bake.jpg");
+      background-color: purple;
       width: 100%;
       padding: 15px 25px;
-      margin: 10px 0;
+      margin: 10px 20px;
       display: inline-block;
-      border: 1px solid #ccc;
+      border: 1px solid purple;
       border-radius: 4px;
       box-sizing: border-box;
       font-size: 30px;
       font-weight: bold;
-  }
+      text-align: center;
+      margin-top: 50px;
+}
 button{
-    background-color: white; 
-    width: 30%;
+    background-color: purple; 
+    width: 100px;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin-left: 30px;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+  }
+  #btn {
+    margin-left: 125px;
+    margin-bottom: 8px;
   }
 
 .button {
   background-color: green;
   color:white;
   width: 10px;
+  margin: 0 auto;
 }
 
+form{
+  border: 1px solid pink;
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 25px;
+  text-align: center;
+  background-color: pink;
+ padding-top: 50px;
+ padding-bottom: 30px;
+}
+input{
+  width: 200px;
+  height: 20px;
+  border-radius: 25px;
+  
+}
+#FirstName {
+  margin-left: 50px;
+}
+#age {
+  margin-left: 140px;
+}
+#Lastname {
+  margin-left: 50px;
+}
+#Password {
+  margin-left: 65px;
+}
+#email {
+  margin-left: 110px;
+}
+#email1 {
+  margin-left: 45px; 
+}
+#btn2{
+  margin-left: 150px;
+}
